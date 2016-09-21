@@ -1,0 +1,63 @@
+.footer {
+  background-color: #727272;
+  height: 50px;
+  padding: 10px 0;
+  margin-top: -50px;
+  position: relative;
+}
+
+.copyright {
+	font-family: "FiraSans-Light", sans-serif;
+	font-size: 0.875em;
+	color: #9c9c9c;
+	padding-top: 7px;
+}
+
+.footer-left {
+	float: left;
+	width: 50%;
+}
+
+.footer-right {
+	float: right;
+	width: 50%;
+	text-align: right;
+}
+
+.social {
+	background: url('../../img/icons/social-sprite.png') no-repeat;
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+	display: inline-block;
+	margin-left: 3px;
+}
+
+.social a {
+	display: block;
+	text-indent: 50px;
+}
+
+.facebook {
+	background-position: 0 -150px;
+}
+
+.facebook:hover {
+	background-position: 0 -120px;
+}
+
+.twitter {
+	background-position: 0 -90px;
+}
+
+.twitter:hover {
+	background-position: 0 -60px;
+}
+
+.vk {
+	background-position: 0 -30px;
+}
+
+.vk:hover {
+	background-position: 0 0;
+}

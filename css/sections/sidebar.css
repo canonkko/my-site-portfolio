@@ -1,0 +1,30 @@
+.sidebar {
+	float: left;
+	width: 23%;
+	text-align: right;
+}
+
+.nav-menu .nav-link {
+	display: block;
+	padding: 10px 0;
+	padding-right: 25px;
+	font-size: 1.125em;
+	color: #414141;
+	border-right: 6px solid transparent;
+	-webkit-transition: .3s ease;
+	-o-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.nav-menu .nav-link:hover {
+	color: #33c1e3;
+}
+
+.nav-link.active {
+	font-family: "FiraSans-Bold", sans-serif;
+	color: #33c1e3;
+	border-right: 6px solid #33c1e3;
+}
+
+
+

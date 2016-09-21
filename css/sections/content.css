@@ -1,0 +1,64 @@
+.content {
+	padding-top: 30px;
+}
+
+.main-content {
+	float: right;
+	width: 77%;
+}
+
+.about-left img {
+	border-radius: 50%;
+	border: 5px solid white;
+}
+
+.about-left, .img-career-wrap {
+	width: 45%;
+	text-align: center;
+	float: left;
+}
+
+.about-right {
+	width: 55%;
+	float: right;
+	padding-right: 10px;
+}
+
+.about-right h1 {
+	margin: 0;
+}
+
+.about-right p {
+	font-family: "FiraSans-Light", sans-serif;
+	font-size: 1.125em;
+	color: #646464;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.btn-resume-wrap{
+	text-align: right;
+	margin-top: 55px;
+	margin-bottom: 70px;
+}
+
+.btn-resume {
+	font-family: "OpenSansBold", sans-serif;
+	color: #e85f61;
+	border-color: #e85f61;
+	padding-top: 8px;
+	padding-bottom: 10px;
+}
+
+.btn-resume .fa {
+	margin-right: 5px;
+}
+
+.btn-resume:hover {
+	background-color: #e85f61;
+	color: #fff;
+}
+
+
+
+
