@@ -19,13 +19,14 @@
 	<link rel="stylesheet" href="css/layout/font-awesome.min.css">
 	<link rel="stylesheet" href="css/layout/adjustment.css">
 	<link rel="stylesheet" href="css/sections/header.css">
-	<link rel="stylesheet" href="css/sections/portfolio.css">
+	<link rel="stylesheet" href="css/sections/about.css">
 	<link rel="stylesheet" href="css/sections/sidebar.css">
 	<link rel="stylesheet" href="css/sections/footer.css">
 
 </head>
 
 <body>
+	
 	<div class="wrapper">
 		<header class="header">
 			<div class="container clearfix">
@@ -51,63 +52,27 @@
 				<aside class="sidebar">
 					<nav class="nav">
 						<ul>
-							<li><a class="nav__link" href="about.html"><i class="fa fa-user-secret fa-fw"></i> Обо мне</a></li>
+							<li><a class="nav__link active" href="about.html"><i class="fa fa-user-secret fa-fw"></i> Обо мне</a></li>
 							<li><a class="nav__link" href="career.html"><i class="fa fa-rocket fa-fw"></i> Карьерный путь</a></li>
-							<li><a class="nav__link active" href="portfolio.html"><i class="fa fa-briefcase fa-fw"></i> Портфолио</a></li>
+							<li><a class="nav__link" href="portfolio.html"><i class="fa fa-briefcase fa-fw"></i> Портфолио</a></li>
 						</ul>
 					</nav>
 				</aside>
 				<main class="main-content">
-					<div class="content-wrap">
-						<h1 class="title">Портфолио</h1>
-						<div class="portfolio clearfix">
-							<ul>
-								<li class="portfolio__item">
-									<a href="#" target="_blank" class="portfolio__link">
-										<img src="img/content/potrfolio-1.jpg" alt="alt">
-										<div class="portfolio__text">
-											<h3>Deals App</h3>
-											<p>Продажа одежды</p>
-											<span><i class="fa fa-mobile"></i> Приложение</span>
-										</div></a>
-								</li>
-								<li class="portfolio__item">
-									<a href="#" target="_blank" class="portfolio__link">
-										<img src="img/content/potrfolio-2.jpg" alt="alt">
-										<div class="portfolio__text">
-											<h3>Dream-scapes</h3>
-											<p>Лагуна Люфтганза</p>
-											<span><i class="fa fa-desktop"></i> Лендинг</span>
-										</div></a>
-								</li>
-								<li class="portfolio__item">
-									<a href="#" target="_blank" class="portfolio__link">
-										<img src="img/content/potrfolio-3.jpg" alt="alt">
-										<div class="portfolio__text">
-											<h3>Creative studio</h3>
-											<p>Танцевальная студия</p>
-											<span><i class="fa fa-desktop"></i> Корпоративный сайт</span>
-										</div></a>
-								</li>
-								<li class="portfolio__item">
-									<a href="#" target="_blank" class="portfolio__link">
-										<img src="img/content/potrfolio-4.jpg" alt="alt">
-										<div class="portfolio__text">
-											<h3>Studio Frog</h3>
-											<p>Мебельный магазин</p>
-											<span><i class="fa fa-desktop"></i> Лендинг</span>
-										</div></a>
-								</li>
-								<li class="portfolio__item">
-									<a href="#" target="_blank" class="portfolio__link">
-										<img src="img/content/potrfolio-5.jpg" alt="alt">
-										<div class="portfolio__text">
-											<h3>Carbonara</h3>
-											<p>Итальянсий ресторан</p>
-											<span><i class="fa fa-desktop"></i> Лендинг</span>
-										</div></a>
-								</li>	
-							</ul>
+					<div class="content-wrap clearfix">
+						<div class="about__pic">
+							<img class="about__img" src="img/content/author-2.jpg" width="220" alt="Руслан Мерзляков">
+						</div>
+						<div class="about__desc">
+							<h1>Обо мне</h1>
+							<div class="about__text">
+								<p>Меня зовут Руслан джан. Проживаю на Юге Башкортостана, с появлением интернета, с головой увлёкся этой темой, и теперь уже почти живу Он-Лайн.</p>
+								<p>С недавних пор (уже года два), это уже не просто увлечение, но и нормальный заработок для меня и моей семьи, на этом конечно не собираюсь останавливаться, а буду стараться добиться ещё больших результатов!</p>
+								<p>Интернет сообщество очень интересно Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Реторический он семантика маленький строчка обеспечивает пор? Безорфографичный от всех осталось, до ведущими вершину, пустился залетают вопроса курсивных, своего диких продолжил.</p>
+							</div>
+							<div class="about__btn">
+								<a class="btn btn_red" href="#"><i class="fa fa-download"></i> Скачать резюме</a>
+							</div>
 						</div>
 					</div>
 				</main>
@@ -140,8 +105,9 @@
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif]-->
 	
-	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	<script src="js/common.js"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="js/nicescroll/jquery.nicescroll.min.js"></script>
+	<script src="js/common.js"></script>
 	
 	<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
 </body>

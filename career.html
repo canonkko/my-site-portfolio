@@ -1,9 +1,141 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
 
-<div class="tab_item">
-	<div class="img-career-wrap">
-		<img src="img/content/university.png" width="220" alt="alt">
-	</div>
-	<div class="career-path">
+<head>
 
+	<meta charset="utf-8">
+
+	<title>Обо мне</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" href="css/layout/normalize.min.css">
+	<link rel="stylesheet" href="css/layout/fonts.css">
+	<link rel="stylesheet" href="css/layout/font-awesome.min.css">
+	<link rel="stylesheet" href="css/layout/adjustment.css">
+	<link rel="stylesheet" href="css/sections/header.css">
+	<link rel="stylesheet" href="css/sections/career.css">
+	<link rel="stylesheet" href="css/sections/sidebar.css">
+	<link rel="stylesheet" href="css/sections/footer.css">
+
+</head>
+
+<body>
+	
+	<div class="wrapper">
+		<header class="header">
+			<div class="container clearfix">
+				<div class="user">
+					<div class="user__photo">
+						<img src="img/content/author.jpg" width="60" alt="Руслан Мерзляков">
+					</div>
+					<div class="user__name">Руслан Мерзляков</div>
+				</div>
+				<div class="contacts">
+					<a href="#" class="contacts__link">Мои контакты
+						<ul class="contacts__list">
+							<li class="contacts__item"><i class="fa fa-envelope fa-fw"></i> ruslankko@gmail.com</li>
+							<li class="contacts__item"><i class="fa fa-phone fa-fw"></i> +7 963 018 48 90</li>
+							<li class="contacts__item"><i class="fa fa-skype fa-fw"></i> canonkko</li>
+						</ul>
+					</a>
+				</div>
+			</div>
+		</header>
+		<section class="content">
+			<div class="container clearfix">
+				<aside class="sidebar">
+					<nav class="nav">
+						<ul>
+							<li><a class="nav__link" href="about.html"><i class="fa fa-user-secret fa-fw"></i> Обо мне</a></li>
+							<li><a class="nav__link active" href="career.html"><i class="fa fa-rocket fa-fw"></i> Карьерный путь</a></li>
+							<li><a class="nav__link" href="portfolio.html"><i class="fa fa-briefcase fa-fw"></i> Портфолио</a></li>
+						</ul>
+					</nav>
+				</aside>
+				<main class="main-content">
+					<div class="content-wrap ">
+						<h1 class="title">Карьерный путь</h1>
+						<div class="career clearfix">
+							<div class="career__pic">
+								<div class="career__img">
+									<img src="img/content/university.png" width="220" alt="University">
+								</div>
+							</div>
+							<div class="career__path">
+								<ul class="career__list">
+									<li class="career__item">
+										<h3>ООО &#171;Звезды путешествий&#187;</h3>
+										<div class="career__desc">
+											<p class="career__post">Системный Администратор</p>
+											<span class="career__time">2015 &#8211; по настоящее время</span>
+										</div>
+										<span class="career__year">2016</span>	
+									</li>
+									<li class="career__item">
+										<h3>Санкт-Петербургский государственный университет</h3>
+										<div class="career__desc">
+											<span class="career__time">2010 - 2015</span>
+										</div>
+										<span class="career__year">2016</span>	
+									</li>
+									<li class="career__item">
+										<h3>Технологический институт им. Горького</h3>
+										<div class="career__desc">
+											<span class="career__time">2012 - 2014</span>
+										</div>
+										<span class="career__year">2016</span>	
+									</li>
+									<li class="career__item">
+										<h3>ООО &#171;Звезды путешествий&#187;</h3>
+										<div class="career__desc">
+											<p class="career__post">Системный Администратор</p>
+											<span class="career__time">2015 &#8211; по настоящее время</span>
+										</div>
+										<span class="career__year">2016</span>	
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</main>
+			</div>
+		</section>
 	</div>
-</div>
+	<footer class="footer">
+		<div class="container clearfix">
+			<div class="copyright">
+				<div class="copyright__text">&#169; Дизайн сайта был разработан в школе LoftSchool</div>
+			</div>
+			<div class="social">
+				<ul class="social__list">
+					<li class="social__item facebook"><a class="social__link" href="#">facebook</a></li>
+					<li class="social__item vk"><a class="social__link" href="https://vk.com/mruslanv" target="_blank">vk</a></li>
+					<li class="social__item twitter"><a class="social__link" href="#">twitter</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+	
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="js/common.js"></script> -->
+	
+	<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
+</body>
+</html>
