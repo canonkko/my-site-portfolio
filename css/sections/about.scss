@@ -1,0 +1,57 @@
+.content-wrap {@extend %clearfix;}
+
+.about__pic {
+	width: 47%;
+	text-align: center;
+	float: left;
+}
+
+.about__img {
+	width: 230px;
+	height: 230px;
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 5px solid white;
+}
+
+.about__desc {
+	width: 53%;
+	float: right;
+}
+
+.about__text {
+	font-family: "FiraSans-Light", sans-serif;
+	font-size: 1.125em;
+	color: #646464;
+	padding-right: 30px;
+	margin-top: 10px;
+	max-height: 320px;
+	overflow-y: auto;
+}
+
+.about__text p {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.about__btn {
+	text-align: right;
+	margin-top: 55px;
+	margin-bottom: 70px;
+}
+
+.btn_red {
+	font-family: "OpenSansBold", sans-serif;
+	color: $red;
+	border-color: $red;
+	padding-top: 8px;
+	padding-bottom: 10px;
+}
+
+.btn_red .fa {margin-right: 5px;}
+
+.btn_red:hover {
+	background-color: $red;
+	color: #fff;
+}

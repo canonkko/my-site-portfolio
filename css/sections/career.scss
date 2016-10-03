@@ -1,0 +1,96 @@
+.career {@extend %clearfix;}
+
+.career__pic {
+	width: 45%;
+	float: left;
+}
+
+.career__img {margin-left: 20px;}
+
+.career__path {
+	width: 55%;
+	float: right;
+}
+
+.career__list {text-align: right;}
+
+.career__item {
+	display: inline-block;
+	position: relative;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+	padding: 15px 12px 12px 15px;
+	color: #5a5a5a;
+	width: 375px;
+	margin-bottom: 20px;
+	text-align: left;
+	transition: .3s ease-in-out;
+}
+
+.career__item:hover {
+	background-color: $blue;
+	color: #fff;
+}
+
+.career__item:hover .career__desc {color: #fff;}
+
+.career__item:hover .career__year {
+	font-family: FiraSans-Bold, sans-serif;
+	font-size: 1.125em;
+	color: $blue;
+	top: calc(50% - 13px);
+	left: -75px;
+}
+
+.career__item:hover::before {border: 5px solid #94e0f2;}
+
+.career__item::before {
+	content: "";
+	width: 20px;
+	height: 20px;
+	background-color: $blue;
+	border: 5px solid #f6f6f6;
+	position: absolute;
+	border-radius: 50%;
+	top: calc(50% - 12px);
+	left: -30px;
+	box-sizing: border-box;
+	transition: .3s ease-in-out;
+}
+
+.career__item::after {
+	content: "";
+	width: 1px;
+	height: 130px;
+	background-color: #ddd;
+	position: absolute;
+	top: 55%;
+	left: -21px;
+}
+
+.career__item:last-child::after {display: none;}
+
+.career__desc {
+	font-family: "FiraSans-Light", sans-serif;
+	color: #727272;
+	font-size: 1.125em;
+}
+
+.career__post {margin: 3px 0 0;}
+
+.career__time {
+	margin-top: 3px;
+	display: block;
+}
+
+.career__year {
+	font-family: "FiraSans-Light", sans-serif;
+	font-size: 0.875em;
+	color: #727272;
+	position: absolute;
+	top: calc(50% - 10px);
+	left: -65px;
+	@include trs();
+}
+

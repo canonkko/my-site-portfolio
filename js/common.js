@@ -4,7 +4,7 @@ $(document).ready(function() {
 		horizrailenabled: false,
 		cursorwidth: 8,
 		cursorcolor: "#D8D8D8",
-		cursoropacitymin: 1
+		cursoropacitymin: 0.7
 	});
 	
 })

@@ -1,0 +1,19 @@
+// variables
+$blue: #33c1e3;
+$red: #e85f61;
+
+// fonts
+@import "layout/fonts";
+@import "layout/font-awesome.min";
+@import "layout/normalize.min";
+@import "layout/mixins";
+@import "layout/adjustment";
+
+// adjustment
+@import "sections/auth";
+@import "sections/header";
+@import "sections/sidebar";
+@import "sections/footer";
+@import "sections/about";
+@import "sections/career";
+@import "sections/portfolio";

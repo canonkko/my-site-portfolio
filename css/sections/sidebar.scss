@@ -1,0 +1,22 @@
+.nav {text-align: right;}
+
+.nav__link {
+	display: block;
+	padding: 10px 0;
+	padding-right: 25px;
+	font-size: 1.125em;
+	color: #414141;
+	border-right: 6px solid transparent;
+	@include trs();
+}
+
+.nav__link:hover {
+	color: $blue;
+	padding-right: 28px;
+}
+
+.nav__link.active {
+	font-family: "FiraSans-Bold", sans-serif;
+	color: $blue;
+	border-right: 6px solid $blue;
+}

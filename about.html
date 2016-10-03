@@ -14,14 +14,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-	<link rel="stylesheet" href="css/layout/normalize.min.css">
-	<link rel="stylesheet" href="css/layout/fonts.css">
-	<link rel="stylesheet" href="css/layout/font-awesome.min.css">
-	<link rel="stylesheet" href="css/layout/adjustment.css">
-	<link rel="stylesheet" href="css/sections/header.css">
-	<link rel="stylesheet" href="css/sections/about.css">
-	<link rel="stylesheet" href="css/sections/sidebar.css">
-	<link rel="stylesheet" href="css/sections/footer.css">
+	<link rel="stylesheet" href="css/main.css">
 
 </head>
 
@@ -29,7 +22,7 @@
 	
 	<div class="wrapper">
 		<header class="header">
-			<div class="container clearfix">
+			<div class="container">
 				<div class="user">
 					<div class="user__photo">
 						<img src="img/content/author.jpg" width="60" alt="Руслан Мерзляков">
@@ -48,7 +41,7 @@
 			</div>
 		</header>
 		<section class="content">
-			<div class="container clearfix">
+			<div class="container">
 				<aside class="sidebar">
 					<nav class="nav">
 						<ul>
@@ -59,9 +52,11 @@
 					</nav>
 				</aside>
 				<main class="main-content">
-					<div class="content-wrap clearfix">
+					<div class="content-wrap">
 						<div class="about__pic">
-							<img class="about__img" src="img/content/author-2.jpg" width="220" alt="Руслан Мерзляков">
+							<div class="about__img">
+								<img src="img/content/author-2.jpg" width="230" alt="Руслан Мерзляков">
+							</div>
 						</div>
 						<div class="about__desc">
 							<h1>Обо мне</h1>
@@ -80,15 +75,15 @@
 		</section>
 	</div>
 	<footer class="footer">
-		<div class="container clearfix">
+		<div class="container">
 			<div class="copyright">
 				<div class="copyright__text">&#169; Дизайн сайта был разработан в школе LoftSchool</div>
 			</div>
 			<div class="social">
 				<ul class="social__list">
-					<li class="social__item facebook"><a class="social__link" href="#">facebook</a></li>
-					<li class="social__item vk"><a class="social__link" href="https://vk.com/mruslanv" target="_blank">vk</a></li>
-					<li class="social__item twitter"><a class="social__link" href="#">twitter</a></li>
+					<li class="social__item social__item-fb"><a class="social__link" href="#">facebook</a></li>
+					<li class="social__item social__item-vk"><a class="social__link" href="https://vk.com/mruslanv" target="_blank">vk</a></li>
+					<li class="social__item social__item-tw"><a class="social__link" href="#">twitter</a></li>
 				</ul>
 			</div>
 		</div>
@@ -109,6 +104,5 @@
 	<script src="js/nicescroll/jquery.nicescroll.min.js"></script>
 	<script src="js/common.js"></script>
 	
-	<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
 </body>
 </html>
