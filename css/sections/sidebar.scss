@@ -1,4 +1,4 @@
-.nav {text-align: right;}
+.nav__menu {text-align: right;}
 
 .nav__link {
 	display: block;
@@ -10,12 +10,9 @@
 	@include trs();
 }
 
-.nav__link:hover {
-	color: $blue;
-	padding-right: 28px;
-}
+.nav__link:hover {color: $blue;}
 
-.nav__link.active {
+.nav__link_active {
 	font-family: "FiraSans-Bold", sans-serif;
 	color: $blue;
 	border-right: 6px solid $blue;

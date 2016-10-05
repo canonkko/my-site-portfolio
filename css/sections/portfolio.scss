@@ -20,6 +20,10 @@
 	padding-bottom: 15px;
 }
 
+.portfolio__img {
+	width: 100%;
+	height: auto;
+}
 
 .portfolio__item:hover h3 {color: $red;}
 

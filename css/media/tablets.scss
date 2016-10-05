@@ -1,0 +1,86 @@
+@media screen and (max-width: 768px) {
+	.wrapper::after {
+		height: 95px;
+	}
+	.container {
+		width: 480px;
+	}
+	.user {
+		width: 70%;
+	}
+	.contacts {
+		width: 30%;
+	}
+	.contacts__trigger {
+		text-indent: 9999px;
+		border-bottom: none;
+		white-space: nowrap;
+		width: 32px;
+		height: 32px;
+		background: url(../img/icons/phone.png) 0 0 no-repeat;
+	}
+	.contacts__list {
+		text-indent: 0;
+		left: -110px;
+	}
+	.about__pic {
+		width: auto;
+		float: none;
+	}
+	.about__desc {
+		width: auto;
+		float: none;
+		margin-right: 0;
+		text-align: center;
+	}
+	.about__text {
+		text-align: left;
+		display: inline-block;
+		width: 85%;
+		padding-right: 25px;
+		margin-top: 0;
+	}
+	.about__btn {
+		text-align: center;
+	}
+	.title {
+		text-align: center;
+	}
+	.career__pic {
+		width: auto;
+		float: none;
+		margin-bottom: 12px;
+	}
+	.career__path {
+		width: auto;
+		float: none;
+	}
+	.career__img {
+		text-align: center;
+	}
+	.career__list {
+		text-align: center;
+	}
+	.career__item::before,
+	.career__item::after,
+	.career__year {
+		display: none;
+	}
+	.footer {
+	  height: 75px;
+	  margin-top: -95px;
+	  text-align: center;
+	}
+	.copyright {
+		float: none;
+		width: auto;
+	}
+	.social {
+		float: none;
+		width: auto;
+		margin-top: 10px;
+	}
+	.social__list {
+		text-align: center;
+	}
+}

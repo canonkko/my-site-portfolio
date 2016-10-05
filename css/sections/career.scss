@@ -22,7 +22,7 @@
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 	padding: 15px 12px 12px 15px;
 	color: #5a5a5a;
-	width: 375px;
+	width: 345px;
 	margin-bottom: 20px;
 	text-align: left;
 	transition: .3s ease-in-out;
@@ -43,7 +43,7 @@
 	left: -75px;
 }
 
-.career__item:hover::before {border: 5px solid #94e0f2;}
+
 
 .career__item::before {
 	content: "";
@@ -58,6 +58,8 @@
 	box-sizing: border-box;
 	transition: .3s ease-in-out;
 }
+
+.career__item:hover::before {border: 5px solid #94e0f2;}
 
 .career__item::after {
 	content: "";

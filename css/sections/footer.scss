@@ -1,17 +1,17 @@
 .footer {
   background-color: #414141;
-  height: 50px;
+  height: 30px;
   padding: 10px 0;
   margin-top: -50px;
   position: relative;
-  min-width: 960px;
 }
 
 .copyright__text {
 	font-family: "FiraSans-Light", sans-serif;
 	font-size: 0.875em;
+	line-height: 1.5;
 	color: #9c9c9c;
-	padding-top: 7px;
+	padding-top: 5px;
 }
 
 .copyright {
@@ -40,21 +40,21 @@
 	text-indent: 50px;
 }
 
-.social__item-fb {
+.social__item_fb {
 	background-position: 0 -150px;
 	&:hover {
 		background-position: 0 -120px;
 	}
 }
 
-.social__item-tw {
+.social__item_tw {
 	background-position: 0 -90px;
 	&:hover {
 		background-position: 0 -60px;
 	}
 }
 
-.social__item-vk {
+.social__item_vk {
 	background-position: 0 -30px;
 	&:hover {
 		background-position: 0 0;

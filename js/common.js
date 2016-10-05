@@ -2,9 +2,9 @@ $(document).ready(function() {
 
 	$(".about__text").niceScroll({
 		horizrailenabled: false,
-		cursorwidth: 8,
+		cursorwidth: 6,
 		cursorcolor: "#D8D8D8",
-		cursoropacitymin: 0.7
+		cursoropacitymin: 1
 	});
 	
 })

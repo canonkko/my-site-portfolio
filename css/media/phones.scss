@@ -1,0 +1,48 @@
+@media screen and (max-width: 480px) {
+	.container {
+		width: 95%;
+	}
+	.wrapper::after {
+		height: 115px;
+	}
+	.header {
+		margin-bottom: 8px;
+	}
+	.content {
+		margin-bottom: 30px;
+	}
+	.user__name {
+		font-size: 1em;
+		max-width: 100px;
+	}
+	.nav__link {
+		font-size: 0.875em;
+		padding-right: 15px;
+	}
+	.nav__link .fa {
+		display: none;
+	}
+	.main-content {
+		margin-top: 10px;
+	}
+	.about__text {
+		height: auto;
+		margin-bottom: 5px;
+	}
+	.career__item {
+		max-width: 280px;
+	}
+	.footer {
+	  height: 95px;
+	  margin-top: -115px;
+	}
+	.portfolio {
+		margin-left: 0;
+	}
+	.portfolio__item {
+		display: block;
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

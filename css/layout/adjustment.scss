@@ -9,11 +9,7 @@ body {
 	font-weight: normal;
 	color: #414141;
 	height: 100%;
-	
-}
-
-* {
-	box-sizing: border-box;
+	min-width: 320px;
 }
 
 h1 {
@@ -32,7 +28,6 @@ h3 {
 
 a {
 	text-decoration: none;
-	color: #fff;
 }
 
 ul {
@@ -46,9 +41,13 @@ img {
 	height: auto;
 }
 
+.container {
+	margin: 0 auto;
+	@extend %clearfix;
+}
+
 .wrapper {
 	min-height: 100%;
-	min-width: 960px;
 	overflow: hidden;
 	position: relative;
 	background-color: #f6f6f6;
@@ -60,14 +59,8 @@ img {
 	display: block;
 }
 
-.container {
-	width: 940px;
-	margin: 0 auto;
-	@extend %clearfix;
-}
-
 .content {
-	margin-top: 25px;
+	margin-bottom: 50px;
 }
 
 .sidebar {
@@ -79,6 +72,8 @@ img {
 	float: right;
 	width: 76%;
 }
+
+.content-wrap {@extend %clearfix;}
 
 .title {
 	margin-bottom: 25px;
@@ -92,6 +87,7 @@ img {
 	padding: 9px 13px 6px;
 	display: inline-block;
 	font-family: "FiraSans-Bold", sans-serif;
+	color: #fff;
 	font-size: 0.875em;
 	@include trs();
 	&:hover {

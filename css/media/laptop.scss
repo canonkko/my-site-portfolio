@@ -1,0 +1,51 @@
+@media screen and (max-width: 992px) {
+	.container {
+		width: 750px;
+	}
+	.sidebar {
+		float: none;
+		width: auto;
+	}
+	.main-content {
+		float: none;
+		width: auto;
+		margin-top: 25px;
+	}
+	.nav__menu {
+		text-align: left;
+	}
+	.nav-item {
+		display: inline-block;
+	}
+	.nav__link {
+		border-right: none;
+	}
+	.about__img {
+		width: 165px;
+		height: 165px;
+	}
+	.about__pic {
+		width: 35%;
+	}
+	.about__desc {
+		width: 62%;
+		margin-right: 3%;
+	}
+	.about__text {
+		margin-bottom: 40px;
+	}
+	.career__img {
+		margin-left: 0;
+	}
+	.career__list {
+		margin-bottom: -20px;
+	}
+	.title {
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+	.portfolio {
+		margin-left: -20px;
+		margin-bottom: -20px;
+	}
+}

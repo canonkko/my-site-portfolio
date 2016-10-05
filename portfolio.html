@@ -29,13 +29,13 @@
 					<div class="user__name">Руслан Мерзляков</div>
 				</div>
 				<div class="contacts">
-					<a href="#" class="contacts__link">Мои контакты
+					<div class="contacts__trigger">Мои контакты
 						<ul class="contacts__list">
-							<li class="contacts__item"><i class="fa fa-envelope fa-fw"></i> ruslankko@gmail.com</li>
-							<li class="contacts__item"><i class="fa fa-phone fa-fw"></i> +7 963 018 48 90</li>
-							<li class="contacts__item"><i class="fa fa-skype fa-fw"></i> canonkko</li>
+							<li class="contacts__item"><a class="contacts__link" href="mailto:ruslankko@gmail.com"><i class="fa fa-envelope fa-fw"></i> ruslankko@gmail.com</a></li>
+							<li class="contacts__item"><a class="contacts__link" href="tel:+79630184890"><i class="fa fa-phone fa-fw"></i> +7 963 018 48 90</a></li>
+							<li class="contacts__item"><a class="contacts__link" href="skype:canonkko?chat"><i class="fa fa-skype fa-fw"></i> canonkko</a></li>
 						</ul>
-					</a>
+					</div>
 				</div>
 			</div>
 		</header>
@@ -43,10 +43,10 @@
 			<div class="container">
 				<aside class="sidebar">
 					<nav class="nav">
-						<ul>
-							<li><a class="nav__link" href="about.html"><i class="fa fa-user-secret fa-fw"></i> Обо мне</a></li>
-							<li><a class="nav__link" href="career.html"><i class="fa fa-rocket fa-fw"></i> Карьерный путь</a></li>
-							<li><a class="nav__link active" href="portfolio.html"><i class="fa fa-briefcase fa-fw"></i> Портфолио</a></li>
+						<ul class="nav__menu">
+							<li class="nav-item"><a class="nav__link" href="about.html"><i class="fa fa-user-secret fa-fw"></i> Обо мне</a></li>
+							<li class="nav-item"><a class="nav__link" href="career.html"><i class="fa fa-rocket fa-fw"></i> Карьерный путь</a></li>
+							<li class="nav-item"><a class="nav__link nav__link_active" href="portfolio.html"><i class="fa fa-briefcase fa-fw"></i> Портфолио</a></li>
 						</ul>
 					</nav>
 				</aside>
@@ -57,7 +57,7 @@
 							<ul>
 								<li class="portfolio__item">
 									<a href="#" target="_blank" class="portfolio__link">
-										<img src="img/content/potrfolio-1.jpg" alt="alt">
+										<img class="portfolio__img" src="img/content/potrfolio-1.jpg" alt="alt">
 										<div class="portfolio__text">
 											<h3>Deals App</h3>
 											<p>Продажа одежды</p>
@@ -66,7 +66,7 @@
 								</li>
 								<li class="portfolio__item">
 									<a href="#" target="_blank" class="portfolio__link">
-										<img src="img/content/potrfolio-2.jpg" alt="alt">
+										<img class="portfolio__img" src="img/content/potrfolio-2.jpg" alt="alt">
 										<div class="portfolio__text">
 											<h3>Dream-scapes</h3>
 											<p>Лагуна Люфтганза</p>
@@ -75,7 +75,7 @@
 								</li>
 								<li class="portfolio__item">
 									<a href="#" target="_blank" class="portfolio__link">
-										<img src="img/content/potrfolio-3.jpg" alt="alt">
+										<img class="portfolio__img" src="img/content/potrfolio-3.jpg" alt="alt">
 										<div class="portfolio__text">
 											<h3>Creative studio</h3>
 											<p>Танцевальная студия</p>
@@ -84,7 +84,7 @@
 								</li>
 								<li class="portfolio__item">
 									<a href="#" target="_blank" class="portfolio__link">
-										<img src="img/content/potrfolio-4.jpg" alt="alt">
+										<img class="portfolio__img" src="img/content/potrfolio-4.jpg" alt="alt">
 										<div class="portfolio__text">
 											<h3>Studio Frog</h3>
 											<p>Мебельный магазин</p>
@@ -93,7 +93,7 @@
 								</li>
 								<li class="portfolio__item">
 									<a href="#" target="_blank" class="portfolio__link">
-										<img src="img/content/potrfolio-5.jpg" alt="alt">
+										<img class="portfolio__img" src="img/content/potrfolio-5.jpg" alt="alt">
 										<div class="portfolio__text">
 											<h3>Carbonara</h3>
 											<p>Итальянсий ресторан</p>
@@ -114,9 +114,9 @@
 			</div>
 			<div class="social">
 				<ul class="social__list">
-					<li class="social__item social__item-fb"><a class="social__link" href="#">facebook</a></li>
-					<li class="social__item social__item-vk"><a class="social__link" href="https://vk.com/mruslanv" target="_blank">vk</a></li>
-					<li class="social__item social__item-tw"><a class="social__link" href="#">twitter</a></li>
+					<li class="social__item social__item_fb"><a class="social__link" href="#">facebook</a></li>
+					<li class="social__item social__item_vk"><a class="social__link" href="https://vk.com/mruslanv" target="_blank">vk</a></li>
+					<li class="social__item social__item_tw"><a class="social__link" href="#">twitter</a></li>
 				</ul>
 			</div>
 		</div>
