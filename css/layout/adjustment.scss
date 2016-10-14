@@ -5,11 +5,10 @@ html {
 body {
 	font-family: "FiraSans-Regular", sans-serif;
 	font-size: 16px;
-	line-height: 1.4;
+	line-height: 1.42;
 	font-weight: normal;
 	color: #414141;
 	height: 100%;
-	min-width: 320px;
 }
 
 h1 {
@@ -72,9 +71,8 @@ img {
 .main-content {
 	float: right;
 	width: 76%;
+	@extend %clearfix;
 }
-
-.content-wrap {@extend %clearfix;}
 
 .title {
 	margin-bottom: 25px;

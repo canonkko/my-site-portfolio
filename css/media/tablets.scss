@@ -19,10 +19,16 @@
 		height: 32px;
 		background: url(../img/icons/phone.png) 0 0 no-repeat;
 	}
-	.contacts__list {
+	.contacts__dropdown {
 		text-indent: 0;
-		left: -110px;
 	}
+	.contacts__dropdown::before,
+	.contacts__dropdown::after {
+		right: 15px;
+	}
+	.contacts__wrap:hover .contacts__dropdown {
+		margin-top: 15px;
+}
 	.about__pic {
 		width: auto;
 		float: none;
@@ -30,7 +36,6 @@
 	.about__desc {
 		width: auto;
 		float: none;
-		margin-right: 0;
 		text-align: center;
 	}
 	.about__text {

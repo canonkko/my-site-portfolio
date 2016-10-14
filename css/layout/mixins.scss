@@ -9,6 +9,6 @@
   }
 }
 
-@mixin trs($time: .3s) {
+@mixin trs($time: .4s) {
 	transition: all $time;
 }

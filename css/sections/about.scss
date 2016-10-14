@@ -33,11 +33,9 @@
 	margin-bottom: 10px;
 }
 
-.about__btn {
-	text-align: right;
-}
+.about__btn {text-align: right;}
 
-.btn_red {
+.btn_color-red {
 	font-family: "OpenSansBold", sans-serif;
 	color: $red;
 	border-color: $red;
@@ -45,9 +43,9 @@
 	padding-bottom: 10px;
 }
 
-.btn_red .fa {margin-right: 5px;}
-
-.btn_red:hover {
+.btn_color-red:hover {
 	background-color: $red;
 	color: #fff;
 }
+
+.btn_red .fa {margin-right: 5px;}

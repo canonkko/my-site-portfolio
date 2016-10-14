@@ -15,47 +15,48 @@
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 	transform: translateY(-4px);
 }
+
 .portfolio__link {
 	display: block;
 	padding-bottom: 15px;
 }
 
-.portfolio__img {
-	width: 100%;
-	height: auto;
+.portfolio__pic {
+	background-position: 50% 0;
+	background-size: cover;
+	height: 175px;
 }
 
-.portfolio__item:hover h3 {color: $red;}
+.portfolio__item:hover .portfolio__title {color: $red;}
 
 .portfolio__text {
 	max-width: 220px;
+	margin-top: 10px;
 	padding-left: 20px;
 	padding-right: 10px;
 }
 
-.portfolio__text h3 {
+.portfolio__title {
 	color: $blue;
 	font-size: 1.3125em;
-	margin-top: 10px;
 	margin-bottom: 0;
 	@include trs();
 }
 
-.portfolio__text p {
+.portfolio__desc {
 	font-family: "FiraSans-Light", sans-serif;
 	font-size: 0.875em;
-	margin-top: 0;
 	margin-bottom: 10px;
 	color: #414141;
 }
 
-.portfolio__text span {
+.portfolio__type {
 	font-family: "OpenSansBold", sans-serif;
 	font-size: 0.875em;
 	color: #aeaeae;
 }
 
-.portfolio__text .fa {
+.portfolio__type .fa {
 	font-size: 18px;
 	margin-right: 2px;
 }

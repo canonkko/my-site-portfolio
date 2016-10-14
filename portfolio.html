@@ -29,11 +29,12 @@
 					<div class="user__name">Руслан Мерзляков</div>
 				</div>
 				<div class="contacts">
-					<div class="contacts__trigger">Мои контакты
-						<ul class="contacts__list">
-							<li class="contacts__item"><a class="contacts__link" href="mailto:ruslankko@gmail.com"><i class="fa fa-envelope fa-fw"></i> ruslankko@gmail.com</a></li>
-							<li class="contacts__item"><a class="contacts__link" href="tel:+79630184890"><i class="fa fa-phone fa-fw"></i> +7 963 018 48 90</a></li>
-							<li class="contacts__item"><a class="contacts__link" href="skype:canonkko?chat"><i class="fa fa-skype fa-fw"></i> canonkko</a></li>
+					<div class="contacts__wrap">
+						<a href="#" class="contacts__trigger">Мои контакты</a>
+						<ul class="contacts__dropdown">
+							<li class="contacts__dropdown-item"><a class="contacts__dropdown-link" href="mailto:ruslankko@gmail.com"><i class="fa fa-envelope fa-fw"></i> ruslankko@gmail.com</a></li>
+							<li class="contacts__dropdown-item"><a class="contacts__dropdown-link" href="tel:+79630184890"><i class="fa fa-phone fa-fw"></i> +7 963 018 48 90</a></li>
+							<li class="contacts__dropdown-item"><a class="contacts__dropdown-link" href="skype:canonkko?chat"><i class="fa fa-skype fa-fw"></i> canonkko</a></li>
 						</ul>
 					</div>
 				</div>
@@ -51,58 +52,56 @@
 					</nav>
 				</aside>
 				<main class="main-content">
-					<div class="content-wrap">
 						<h1 class="title">Портфолио</h1>
 						<div class="portfolio">
 							<ul>
 								<li class="portfolio__item">
-									<a href="#" target="_blank" class="portfolio__link">
-										<img class="portfolio__img" src="img/content/potrfolio-1.jpg" alt="alt">
+									<a href="http://mrv-studio.ru/afg" target="_blank" class="portfolio__link">
+										<div class="portfolio__pic" style="background-image: url('img/content/afg.jpg')"></div>
 										<div class="portfolio__text">
-											<h3>Deals App</h3>
-											<p>Продажа одежды</p>
-											<span><i class="fa fa-mobile"></i> Приложение</span>
+											<h3 class="portfolio__title">AFG</h3>
+											<div class="portfolio__desc">Финансовая группа</div>
+											<span class="portfolio__type"><i class="fa fa-desktop"></i> Лендинг</span>
 										</div></a>
 								</li>
 								<li class="portfolio__item">
-									<a href="#" target="_blank" class="portfolio__link">
-										<img class="portfolio__img" src="img/content/potrfolio-2.jpg" alt="alt">
+									<a href="http://unitycard.ru" target="_blank" class="portfolio__link">
+										<div class="portfolio__pic" style="background-image: url('img/content/citycard.jpg')"></div>
 										<div class="portfolio__text">
-											<h3>Dream-scapes</h3>
-											<p>Лагуна Люфтганза</p>
-											<span><i class="fa fa-desktop"></i> Лендинг</span>
+											<h3 class="portfolio__title">Citycard Unity</h3>
+											<div class="portfolio__desc">Мобильное приложение</div>
+											<span class="portfolio__type"><i class="fa fa-desktop"></i> Лендинг</span>
 										</div></a>
 								</li>
 								<li class="portfolio__item">
-									<a href="#" target="_blank" class="portfolio__link">
-										<img class="portfolio__img" src="img/content/potrfolio-3.jpg" alt="alt">
+									<a href="http://mrv-studio.ru/ovkstroi" target="_blank" class="portfolio__link">
+										<div class="portfolio__pic" style="background-image: url('img/content/ovk.jpg')"></div>
 										<div class="portfolio__text">
-											<h3>Creative studio</h3>
-											<p>Танцевальная студия</p>
-											<span><i class="fa fa-desktop"></i> Корпоративный сайт</span>
+											<h3 class="portfolio__title">ОВК Строй</h3>
+											<div class="portfolio__desc">Монтаж систем вентиляций</div>
+											<span class="portfolio__type"><i class="fa fa-desktop"></i> Лендинг</span>
 										</div></a>
 								</li>
 								<li class="portfolio__item">
-									<a href="#" target="_blank" class="portfolio__link">
-										<img class="portfolio__img" src="img/content/potrfolio-4.jpg" alt="alt">
+									<a href="http://mrv-studio.ru/gromovevent" target="_blank" class="portfolio__link">
+										<div class="portfolio__pic" style="background-image: url('img/content/gromov.jpg')"></div>
 										<div class="portfolio__text">
-											<h3>Studio Frog</h3>
-											<p>Мебельный магазин</p>
-											<span><i class="fa fa-desktop"></i> Лендинг</span>
+											<h3 class="portfolio__title">Event ведущий</h3>
+											<div class="portfolio__desc">Сайт-портфолио</div>
+											<span class="portfolio__type"><i class="fa fa-desktop"></i> Лендинг</span>
 										</div></a>
 								</li>
 								<li class="portfolio__item">
-									<a href="#" target="_blank" class="portfolio__link">
-										<img class="portfolio__img" src="img/content/potrfolio-5.jpg" alt="alt">
+									<a href="http://mrv-studio.ru/photographer" target="_blank" class="portfolio__link">
+										<div class="portfolio__pic" style="background-image: url('img/content/photographer.jpg')"></div>
 										<div class="portfolio__text">
-											<h3>Carbonara</h3>
-											<p>Итальянсий ресторан</p>
-											<span><i class="fa fa-desktop"></i> Лендинг</span>
+											<h3 class="portfolio__title">Фотограф</h3>
+											<div class="portfolio__desc">Сайт-портфолио</div>
+											<span class="portfolio__type"><i class="fa fa-desktop"></i> Лендинг</span>
 										</div></a>
-								</li>	
+								</li>
 							</ul>
 						</div>
-					</div>
 				</main>
 			</div>
 		</section>
@@ -114,9 +113,9 @@
 			</div>
 			<div class="social">
 				<ul class="social__list">
-					<li class="social__item social__item_fb"><a class="social__link" href="#">facebook</a></li>
+					<li class="social__item social__item_fb"><a class="social__link" href="#" target="_blank">facebook</a></li>
 					<li class="social__item social__item_vk"><a class="social__link" href="https://vk.com/mruslanv" target="_blank">vk</a></li>
-					<li class="social__item social__item_tw"><a class="social__link" href="#">twitter</a></li>
+					<li class="social__item social__item_tw"><a class="social__link" href="#" target="_blank">twitter</a></li>
 				</ul>
 			</div>
 		</div>

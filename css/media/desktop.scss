@@ -1,0 +1,11 @@
+@media screen and (max-width: 1100px) {
+	.contacts__dropdown {
+		left: auto;
+		right: 0;
+	}
+	.contacts__dropdown::before,
+	.contacts__dropdown::after {
+		left: auto;
+		right: 50px;
+	}
+}

@@ -25,7 +25,7 @@
 	width: 345px;
 	margin-bottom: 20px;
 	text-align: left;
-	transition: .3s ease-in-out;
+	@include trs();
 }
 
 .career__item:hover {
@@ -37,41 +37,33 @@
 
 .career__item:hover .career__year {
 	font-family: FiraSans-Bold, sans-serif;
-	font-size: 1.125em;
 	color: $blue;
-	top: calc(50% - 13px);
-	left: -75px;
 }
 
-
-
-.career__item::before {
-	content: "";
-	width: 20px;
-	height: 20px;
-	background-color: $blue;
-	border: 5px solid #f6f6f6;
-	position: absolute;
-	border-radius: 50%;
-	top: calc(50% - 12px);
-	left: -30px;
-	box-sizing: border-box;
-	transition: .3s ease-in-out;
-}
-
-.career__item:hover::before {border: 5px solid #94e0f2;}
-
-.career__item::after {
+.career__item::before, .career__item::after {
 	content: "";
 	width: 1px;
-	height: 130px;
 	background-color: #ddd;
 	position: absolute;
-	top: 55%;
-	left: -21px;
+	right: 100%;
+	margin-right: 20px;
+}
+
+.career__item::before {
+	top: 0;
+	bottom: 50%;
+}
+
+.career__item::after {
+	top: 50%;
+	bottom: -20px;
 }
 
 .career__item:last-child::after {display: none;}
+
+.career__item:first-child::before {display: none;}
+
+.career__item:hover .career__year::after {border: 5px solid #94e0f2;}
 
 .career__desc {
 	font-family: "FiraSans-Light", sans-serif;
@@ -79,20 +71,36 @@
 	font-size: 1.125em;
 }
 
-.career__post {margin: 3px 0 0;}
-
-.career__time {
-	margin-top: 3px;
-	display: block;
+.career__title,
+.career__post {
+	margin-bottom: 3px;
 }
 
 .career__year {
 	font-family: "FiraSans-Light", sans-serif;
 	font-size: 0.875em;
+	line-height: 20px;
 	color: #727272;
 	position: absolute;
-	top: calc(50% - 10px);
-	left: -65px;
+	top: 50%;
+	right: 100%;
+	z-index: 5;
+	margin: -10px 35px 0 0;
+	@include trs();
+}
+
+.career__year::after {
+	content: "";
+	width: 20px;
+	height: 20px;
+	background-color: $blue;
+	border: 5px solid #f6f6f6;
+	position: absolute;
+	border-radius: 50%;
+	top: 50%;
+	left: 100%;
+	margin: -11px 0 0 5px;
+	box-sizing: border-box;
 	@include trs();
 }
 
