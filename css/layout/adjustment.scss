@@ -66,11 +66,13 @@ img {
 .sidebar {
 	float: left;
 	width: 24%;
+	animation: fadeInLeft 1s .3s backwards;
 }
 
 .main-content {
 	float: right;
 	width: 76%;
+	animation: fadeInUp 1s .6s backwards;
 	@extend %clearfix;
 }
 
@@ -93,4 +95,52 @@ img {
 		background-color: #fff;
 		color: $blue;
 	}
+}
+
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translateY(15px);
+	}
+	100% {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+@keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-15px);
+	}
+	100% {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+@keyframes flipInY {
+  from {
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    animation-timing-function: ease-in;
+    opacity: 0;
+  }
+
+  40% {
+    transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    opacity: 1;
+  }
+
+  80% {
+    transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+  }
+
+  to {
+    transform: perspective(400px);
+  }
 }

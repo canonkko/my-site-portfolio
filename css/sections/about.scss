@@ -22,10 +22,18 @@
 	font-family: "FiraSans-Light", sans-serif;
 	font-size: 1.125em;
 	color: #646464;
-	padding-right: 30px;
+	padding-right: 25px;
 	margin-top: 10px;
 	margin-bottom: 55px;
 	height: 320px;
+	overflow-y: auto;
+	&::-webkit-scrollbar {
+		width: 6px;
+	}
+	&::-webkit-scrollbar-thumb {
+    background-color: #D8D8D8;
+    border-radius: 5px;
+	}
 }
 
 .about__text p {
