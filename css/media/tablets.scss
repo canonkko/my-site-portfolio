@@ -1,4 +1,8 @@
 @media screen and (max-width: 768px) {
+	.author__title {
+		max-width: 320px;
+	}
+
 	.wrapper::after {
 		height: 95px;
 	}
@@ -17,7 +21,8 @@
 		white-space: nowrap;
 		width: 32px;
 		height: 32px;
-		background: url(../img/icons/phone.png) 0 0 no-repeat;
+		background: url(../img/icons/phone.svg) no-repeat;
+		background-size: 32px;
 	}
 	.contacts__dropdown {
 		text-indent: 0;
@@ -54,14 +59,16 @@
 	.career__pic {
 		width: auto;
 		float: none;
-		margin-bottom: 12px;
+		margin-bottom: 30px;
+		text-align: center;
+		padding-left: 0;
 	}
 	.career__path {
 		width: auto;
 		float: none;
 	}
 	.career__img {
-		text-align: center;
+		margin: 0 auto 20px;
 	}
 	.career__list {
 		text-align: center;
@@ -84,8 +91,6 @@
 		float: none;
 		width: auto;
 		margin-top: 10px;
-	}
-	.social__list {
 		text-align: center;
 	}
 }

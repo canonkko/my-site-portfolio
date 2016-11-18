@@ -22,9 +22,9 @@
 	font-family: "FiraSans-Light", sans-serif;
 	font-size: 1.125em;
 	color: #646464;
-	padding-right: 25px;
+	padding-right: 40px;
 	margin-top: 10px;
-	margin-bottom: 55px;
+	margin-bottom: 50px;
 	height: 320px;
 	overflow-y: auto;
 	&::-webkit-scrollbar {
@@ -42,6 +42,45 @@
 }
 
 .about__btn {text-align: right;}
+
+.skills__popup {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 25px;
+	max-width: 500px;
+	border: 1px solid #ccc;
+	position: relative;
+	display: none;
+}
+
+.skills__btn-close {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 15px;
+	height: 15px;
+	outline: none;
+	border: none;
+	background: url("../img/icons/close.svg") no-repeat;
+	opacity: .7;
+	@include trs();
+
+	&:hover {
+		transform: rotate(90deg);
+		opacity: 1;
+	}
+}
+
+.skills__item {
+	background: url("../img/icons/check.svg") 0 3px no-repeat;
+	background-size: 15px;
+	padding-left: 25px;
+	margin-bottom: 10px;
+}
+
+.skills__item:last-child {
+	margin-bottom: 0;
+}
 
 .btn_color-red {
 	font-family: "OpenSansBold", sans-serif;

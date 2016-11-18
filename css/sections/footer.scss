@@ -22,42 +22,25 @@
 .social {
 	float: right;
 	width: 50%;
+	text-align: right;
 }
 
-.social__list {text-align: right;}
-
 .social__item {
-	background: url('../img/icons/social-sprite.png') no-repeat;
-	width: 30px;
-	height: 30px;
 	overflow: hidden;
 	display: inline-block;
-	margin-left: 3px;
 }
 
 .social__link {
 	display: block;
 	text-indent: 50px;
-}
+	background: url('../img/icons/vk.svg') no-repeat;
+	width: 30px;
+	height: 30px;
+	opacity: .8;
+	@include trs();
 
-.social__item_fb {
-	background-position: 0 -150px;
 	&:hover {
-		background-position: 0 -120px;
-	}
-}
-
-.social__item_tw {
-	background-position: 0 -90px;
-	&:hover {
-		background-position: 0 -60px;
-	}
-}
-
-.social__item_vk {
-	background-position: 0 -30px;
-	&:hover {
-		background-position: 0 0;
+		opacity: 1;
 	}
 }
 

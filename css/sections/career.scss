@@ -3,9 +3,17 @@
 .career__pic {
 	width: 45%;
 	float: left;
+	padding-left: 20px;
+	box-sizing: border-box;
 }
 
-.career__img {margin-left: 20px;}
+.career__img {
+	width: 220px;
+	height: 138px;
+	margin-bottom: 40px;
+	border-radius: 10px;
+	overflow: hidden;
+}
 
 .career__path {
 	width: 55%;
@@ -103,4 +111,3 @@
 	box-sizing: border-box;
 	@include trs();
 }
-

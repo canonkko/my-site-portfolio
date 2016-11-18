@@ -83,7 +83,7 @@ img {
 }
 
 .btn {
-	border: 2px solid white;
+	border: 2px solid $blue;
 	border-radius: 10em;
 	padding: 9px 13px 6px;
 	display: inline-block;
@@ -92,8 +92,8 @@ img {
 	font-size: 0.875em;
 	@include trs();
 	&:hover {
-		background-color: #fff;
-		color: $blue;
+		background-color: $blue;
+		color: #fff;
 	}
 }
 

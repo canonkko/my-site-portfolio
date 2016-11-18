@@ -1,9 +1,8 @@
 .main-page {
 	height: 100vh;
 	text-align: center;
-	background: url('../img/bg/mainbg.jpg') 50% 0 no-repeat;
-	background-size: cover;
 	position: relative;
+	overflow: hidden;
 }
 
 .main-page::before {
@@ -22,16 +21,18 @@
 	bottom: 0;
 	left: 0;
 	background-color: #103b46;
-	opacity: .65;
+	opacity: .75;
+}
+
+.ibg-bg {
+  position: absolute;
+	top: 0;
 }
 
 .author {
-	background-color: white;
 	border-radius: 10px;
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 	display: inline-block;
 	vertical-align: middle;
-	min-width: 300px;
 	position: relative;
 	z-index: 5;
 	animation: flipInY 1s .3s backwards;
@@ -45,17 +46,26 @@
 	overflow: hidden;
 	border-radius: 50%;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-	margin-top: -71px;
+	margin-bottom: 10px;
 }
 
 .author__title {
 	font-family: "OpenSansSemiBold", sans-serif;
-	margin: 5px auto 15px;
-	max-width: 180px;
+	margin: 0px auto 20px;
+	font-size: 2.5em;
+	line-height: 1.3;
+	padding: 10px 35px;
+	color: #fff;
+	background-color: rgba(#000,.1);
+	border: 8px solid $blue;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
-.author__btn {
-	background-color: $blue;
-	border-radius: 0 0 10px 10px;
-	padding: 20px 70px;
+.author__subtitle {
+	text-transform: uppercase;
+	color: #fafafa;
+	font-size: 1em;
+	letter-spacing: 5px;
+	margin-bottom: 30px;
 }

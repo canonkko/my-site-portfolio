@@ -1,4 +1,13 @@
 @media screen and (max-width: 480px) {
+	.author__title {
+		font-size: 1.5em;
+		padding: 10px 0;
+		max-width: 280px;
+	}
+	.author__subtitle {
+		font-size: 0.85em;
+	}
+
 	.container {
 		width: 95%;
 	}
