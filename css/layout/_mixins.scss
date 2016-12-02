@@ -10,5 +10,5 @@
 }
 
 @mixin trs($time: .4s) {
-	transition: all $time;
+	transition: all $time ease-in-out;
 }

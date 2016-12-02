@@ -61,8 +61,8 @@
 
 .contacts__wrap:hover .contacts__dropdown {
 	visibility: visible;
-	margin-top: 20px;
 	opacity: 1;
+	transform: none;
 }
 
 .contacts__dropdown {
@@ -75,12 +75,13 @@
   position: absolute;
 	left: 50%;
   top: 100%;
-  margin-top: 30px;
+  margin-top: 15px;
   margin-left: -117px;
   border-radius: 10px;
   visibility: hidden;
   opacity: 0;
-	transition: .3s ease-in-out .2s;
+  transform: translate3d(0, -10px, 0);
+	@include trs(0.3s)
 }
 
 .contacts__dropdown-link .fa {

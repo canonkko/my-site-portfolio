@@ -1,5 +1,4 @@
-//@prepros-prepend jquery.bpopup.min.js
-//@prepros-prepend jquery.interactive_bg.js
+//@prepros-prepend libs/*.js
 
 $(document).ready(function() {
 

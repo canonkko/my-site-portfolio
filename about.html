@@ -1,10 +1,6 @@
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
+
 <html lang="ru">
-<!--<![endif]-->
 
 <head>
 
@@ -64,7 +60,8 @@
 						<h1>Обо мне</h1>
 						<div class="about__text">
 							<p>Если вы читаете эти строки значит вы в поисках специалиста во front-end разработке и вы на правильном пути. Приветствую вас на моем сайте! Меня зовут Руслан. Я front-end разработчик!</p>
-							<p>Кроме HTML5 и CSS3 в своей работе использую следующие технологии: js(jquery), Sass/Less, Bootstrap, Gulp, БЭМ-нейминг, Git. Проекты проверяю на валидность через W3C validator. Скорость загрузки тестирую на Google page speed.</p>
+							<p>Кроме HTML5 и CSS3 в своей работе использую следующие технологии: Prepros (Jade, Sass+Bourbon) или Gulp, js(jquery), Bootstrap, БЭМ-нейминг и Git. Проекты проверяю на валидность через W3C validator. Скорость загрузки тестирую на Google page speed.</p>
+							<p>Также владею следующими программами: Adobe Photoshop, Adobe Muse и веб-редактор Webflow.</p>
 							<p>В работе придерживаюсь умеренного перфекционизма, нравиться реализовывать не шаблонные элементы дизайна.</p>
 							<p>Являюсь выпускником онлайн школы обучения программированию &#171;Loftschool&#187;. Мои работы вы можете посмотреть в разделе Портфолио.</p>
 						</div>
@@ -82,9 +79,10 @@
 			<div class="copyright">
 				<div class="copyright__text">&#169; Дизайн сайта был разработан в школе LoftSchool</div>
 			</div>
-			<div class="social">
-				<div class="social__item"><a class="social__link" href="https://vk.com/mruslanv" target="_blank">vk</a></div>
-			</div>
+			<ul class="social">
+				<li class="social__item"><a class="social__link social__link-vk" href="https://vk.com/mruslanv" target="_blank">vk</a></li>
+				<li class="social__item"><a class="social__link social__link-github" href="https://github.com/canonkko" target="_blank">github</a></li>
+			</ul>
 		</div>
 	</footer>
 
@@ -92,15 +90,15 @@
 		<button class="skills__btn-close"></button>
 		<ul class="skills__list">
 			<li class="skills__item">Знание HTML/CSS - семантичная верстка HTML</li>
-			<li class="skills__item">Умение использовать возможности CSS3</li>
+			<li class="skills__item">Знание шаблонизатора PUG(Jade)</li>
 			<li class="skills__item">Начальный уровень Javascript - jQuery на уровне написания простых виджетов</li>
 			<li class="skills__item">Работа и настройка готовых решений (плагинов) на jQuery</li>
 			<li class="skills__item">Адаптивная верстка с использованием медиа запросов</li>
 			<li class="skills__item">Знание Photoshop на уровне "нарезания" макетов</li>
 			<li class="skills__item">Понимание модульной верстки - именование классов по методологии БЭМ-нейминг</li>
-			<li class="skills__item">Использование препроцессора SASS</li>
+			<li class="skills__item">Использование препроцессора Sass+Bourbon</li>
 			<li class="skills__item">Умение использовать консоль, на уровне основных команд и работы с технологиями</li>
-			<li class="skills__item">Сборка и оптимизация проекта при помощи GULP</li>
+			<li class="skills__item">Сборка и оптимизация проекта при помощи Prepros или Gulp</li>
 			<li class="skills__item">Навыки работы c веркторной графикой в формате SVG</li>
 			<li class="skills__item">Понимание принципов рыботы CMS</li>
 			<li class="skills__item">Умение работать с API Карт - Яндекс/Google</li>
@@ -108,15 +106,10 @@
 		</ul>
 	</div>
 
-	<!--[if lt IE 9]>
-	<script src="libs/html5shiv/es5-shim.min.js"></script>
-	<script src="libs/html5shiv/html5shiv.min.js"></script>
-	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
-	<script src="libs/respond/respond.min.js"></script>
-	<![endif]-->
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-	<script src="js/common-dist.js"></script>
+	<script src="js/scripts.js"></script>
 
 </body>
 

@@ -13,7 +13,7 @@
 
 .portfolio__item:hover {
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-	transform: translateY(-4px);
+	transform: translate3d(0, -4px, 0);
 }
 
 .portfolio__link {

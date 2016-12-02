@@ -28,20 +28,28 @@
 .social__item {
 	overflow: hidden;
 	display: inline-block;
+	margin-left: 5px;
 }
 
 .social__link {
 	display: block;
 	text-indent: 50px;
-	background: url('../img/icons/vk.svg') no-repeat;
 	width: 30px;
 	height: 30px;
 	opacity: .8;
-	@include trs();
+	@include trs;
 
 	&:hover {
 		opacity: 1;
 	}
+}
+
+.social__link-vk {
+	background: url('../img/icons/vk.svg') no-repeat;
+}
+
+.social__link-github {
+	background: url('../img/icons/github.svg') no-repeat;
 }
 
 

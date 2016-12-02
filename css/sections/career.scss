@@ -10,7 +10,6 @@
 .career__img {
 	width: 220px;
 	height: 138px;
-	margin-bottom: 40px;
 	border-radius: 10px;
 	overflow: hidden;
 }
@@ -33,7 +32,7 @@
 	width: 345px;
 	margin-bottom: 20px;
 	text-align: left;
-	@include trs();
+	@include trs;
 }
 
 .career__item:hover {
